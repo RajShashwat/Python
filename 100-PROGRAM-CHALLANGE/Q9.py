@@ -16,5 +16,4 @@ sentence=input()
 while sentence:
     Line.append(sentence.upper())
     sentence=input()
-for i in Line:
-    print(i)
+print ("".join(Line))
