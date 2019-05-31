@@ -12,5 +12,4 @@ again and hello makes perfect practice world
 Words={x for x in (input().split())}
 words=list(Words)
 words.sort()
-for i in words:
-    print(i, end=" ")
+print (",".join(words))
