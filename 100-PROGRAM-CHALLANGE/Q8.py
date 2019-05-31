@@ -12,5 +12,4 @@ bag,hello,without,world
 String=input()
 words=String.split(',')
 words.sort()
-for i in words:
-    print(i, end=",")
+print (",".join(words))
