@@ -21,5 +21,4 @@ Q=[]
 D=[int(x) for x in input().split(',')]
 for i in D:
     Q.append(int(math.sqrt((2*C*i)/H)))
-for i in Q: 
-    print(i, end=",")
+print (",".join(Q))
