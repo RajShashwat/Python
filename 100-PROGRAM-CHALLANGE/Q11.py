@@ -16,5 +16,4 @@ for i in Binary:
     Int=int(i,2)
     if Int % 5 == 0 :
         INT.append(i)
-for i in INT:
-    print(i, end=" ")
+print (",".join(INT))
