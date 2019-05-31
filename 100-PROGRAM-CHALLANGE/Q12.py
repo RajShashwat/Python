@@ -11,5 +11,4 @@ for i in range(1000,3000+1):
     st=str(i)
     if (int(st[0]) % 2 == 0) and (int(st[1]) % 2 == 0) and (int(st[2]) % 2 == 0) and (int(st[3]) % 2 == 0) :
         Value.append(i)
-for i in Value:
-    print(i, end=",")
+print (",".join(Value))
